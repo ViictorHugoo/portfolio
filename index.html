@@ -10,18 +10,36 @@
 <body>
 
     <header id="header" class="header">
-        <a id="b1H" class="homeBtn" href="#"> Victor Hugo </a>
-        <a id="b2H" class="direcionaBtn" href="#about">Sobre mim</a>
-        <a id="b2H" class="direcionaBtn" href="#projetos">Projetos</a>
-        <a id="b2H" class="direcionaBtn" href="#experiencia">Experiências</a>
-        <a id="b2H" class="direcionaBtn" href="#footer">Contato</a>
+        <div class="imgVh">
+            <a id="b1H" class="homeBtn" href="#"><img src="assets/Vh.png"></a>
+        </div>
+
+        <div class="links">
+            <a id="b2H" class="direcionaBtn" href="#about">Sobre mim</a>
+            <a id="b2H" class="direcionaBtn" href="#projetos">Projetos</a>
+            <a id="b2H" class="direcionaBtn" href="#experiencia">Experiências</a>
+            <a id="b2H" class="direcionaBtn" href="#footer">Contato</a>
+        </div>
     </header>
     
     <div id="about" class="about">
-        <h2>Olá, meu nome é Victor</h2>
-        <h3>Tenho 19 anos e altualmente resido em Brasilia-DF</h3>
-        <h3>Sou estudante de engenahria de software na Universidade de Brasilia e trainee na Orc'estra Ganificação</h3>
-        <h4>ainda sem área especifica, mas curioso sobre tudo</h4>
+        
+        <div class="imgAbout">
+            <img class="imgMiranha" src="assets/homiranha.png">
+        </div>
+
+        <div class="textAbout">
+            <h2 class="nome">Olá, meu nome é Victor</h2>
+            <h3 class="nomeInfo">Tenho 19 anos e altualmente resido em Brasilia-DF
+                <br>
+                Sou estudante de engenharia de software na UnB <br> 
+                E trainee na Orc'estra Ganificação</h3>
+                <hr>
+            <h4 class="area">ainda sem área especifica, mas curioso sobre tudo</h4>
+        </div>
+        
+        
+        
         <div id="skills" class="skillsList">
             <ul class="lista">
                 <li>Ingles intermediário</li>
@@ -31,11 +49,12 @@
                 <li>HTMLe CSS</li>
             </ul>
         </div>
-     </div>
+    </div>
 
      <div id="projetos" class="projetos">
         <div class="algoritimoC">
             <h2>PPM - PGM</h2>
+            <img src="assets/PPMPGM.png">
             <h4>aplicação para converter imagens do tipo ppm(portable pixmap format) para pgm(portable graymap format), 
                 ele usa 3 diferentes algoritimos de conversão e cada um apresenta resultados distintos.</h4>
                 <a class="verRepo" href="https://github.com/ViictorHugoo/Conversor-para-escala-cinza-em-linguagem-C">Ver repositório</a>
@@ -43,12 +62,14 @@
         
         <div class="Estuder's">
             <h2>Estuder's</h2>
+            <img src="assets/Estuders.jpg">
             <h4>Site para organização e planejamento de estudos. Nele é possível cadastrar eventos, matérias e nota.</h4>
             <a class="verRepo" href="https://github.com/ViictorHugoo/Trabalho-de-Desenvolvimento-de-Software">Ver repositório</a>
         </div>
         
         <div class="Lótus">
             <h2>Lótus</h2>
+            <img src="assets/Lotus.png">
             <h4>Aplicação Desktop para registro de menstruação, ciclos e sintomas. Feito orientado a objetos.</h4>
             <a class="verRepo" href="https://github.com/ViictorHugoo/Diario-de-ciclos-menstruais">Ver repositório</a>
         </div>
@@ -73,6 +94,9 @@
     </div>
     <footer id="footer">
         <p>Victor Hugo Rodrigues Guimarães</p>
+        <a href="#"><img src="assets/linkedin.png"></a>
+        <a href="#"><img src="assets/github.png"></a>
+        <a href="#"><img src="assets/telegram.png"></a>
     </footer>
 </body>
 </html>
