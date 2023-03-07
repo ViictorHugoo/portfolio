@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #668ab918;
 }
 header{
     position: fixed;
@@ -36,6 +37,7 @@ header{
     padding-bottom: 6em;
     display: flex;
     flex-direction:row;
+    
 }
 .imgAbout{
     max-width: max-content;
@@ -57,7 +59,8 @@ header{
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     border-radius: 2em;
     max-width: max-content;
-    background-color: rgba(77, 128, 172, 0);
+    background-color: #ffffff;
+   
 }
 
 .nome{
@@ -79,22 +82,26 @@ header{
     padding-top: 3em;
 }
 .algoritimoC{
+    width: 100%;
     padding-top: 2em;
-    padding-left: 1em;
+
 }
 
 .algoritimoC > h2 {
-    position: relative;
+    margin: auto;
+    margin-bottom: 1em;
+    text-align: center;
     border-radius: 5px;
-    left: 570px;
     font-size: 2em;
     max-width: max-content;
     box-shadow: inset 0 -2em 2em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
 }
 .conteudoAlgoritmoC{
     display: flex;
     flex-direction: row;
+    background-color: #ffffff;
     border-radius: 30px;
     max-width: max-content;
     box-shadow: inset 0 -2em 1em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255),
@@ -123,9 +130,9 @@ header{
     max-height: 1.4em;
     padding-left: 13px;
     padding-top: 1px;
-    position: relative;
-    top: 250px;
-    right: 40px;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-right: 1em;
     text-decoration: none;
     border-radius: 5px;
     background-color: gray;
@@ -134,22 +141,24 @@ header{
 
 .estuders{
     padding-top: 2em;
-    padding-left: 1em;
 }
 
 .estuders > h2 {
-    position: relative;
-    left: 570px;
-    font-size: 2em;
+    margin: auto;
+    margin-bottom: 1em;
+    text-align: center;
     border-radius: 5px;
+    font-size: 2em;
     max-width: max-content;
     box-shadow: inset 0 -2em 2em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
 }
 .conteudoEstuders{
     display: flex;
     flex-direction: row;
     max-width: max-content;
+    background-color: #ffffff;
     border-radius: 30px;
     box-shadow: inset 0 -2em 1em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
@@ -177,9 +186,9 @@ header{
     max-height: 1.4em;
     padding-left: 13px;
     padding-top: 1px;
-    position: relative;
-    top: 250px;
-    right: 40px;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-right: 1em;
     text-decoration: none;
     border-radius: 5px;
     background-color: gray;
@@ -188,23 +197,25 @@ header{
 
 .lotus{
     padding-top: 2em;
-    padding-left: 1em;
 }
 
 .lotus > h2 {
-    position: relative;
-    left: 570px;
-    font-size: 2em;
+    margin: auto;
+    margin-bottom: 1em;
+    text-align: center;
     border-radius: 5px;
+    font-size: 2em;
     max-width: max-content;
     box-shadow: inset 0 -2em 2em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
 }
 .conteudoLotus{
     display: flex;
     flex-direction: row;
     border-radius: 30px;
     max-width: max-content;
+    background-color: #ffffff;
     box-shadow: inset 0 -2em 1em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
 }
@@ -238,4 +249,10 @@ header{
     border-radius: 5px;
     background-color: gray;
     color: rgb(255, 255, 255);
+}
+
+.countainerFooter{
+    background-color: rgba(26, 26, 29, 0.76);
+    display: flex;
+    justify-content: space-between;
 }
